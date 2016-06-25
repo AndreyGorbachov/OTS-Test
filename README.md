@@ -4,7 +4,8 @@
 #####Для запуска:
 1. Запускаем консоль из папки с файлом pom.xml и выполняем команды:
 ```
-mvn package
+mvn compile
+mvn exec:java -Dexec.mainClass="by.agorbachov.matrix.App"
 ```
 ####Web-приложение
 #####Для запуска:
